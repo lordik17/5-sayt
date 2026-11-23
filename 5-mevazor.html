@@ -1,0 +1,23 @@
+<!doctype html><html lang="uz"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Mevazor — yangi mevalar</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#1E9E5A;--o:#FF8A1F;--r:#FF4F6D;--l:#C8F0D2;--d:#0F3D2A;color-scheme:light}*{box-sizing:border-box;margin:0}
+body{background:var(--l);color:var(--d);font:500 18px/1.5 Fredoka,system-ui,sans-serif;overflow-x:hidden;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 5vw;font-weight:700;font-size:26px}
+.pill{background:var(--d);color:#fff;border-radius:99px;padding:12px 26px;font-size:17px;text-decoration:none;display:inline-block;transition:transform .2s cubic-bezier(.3,1.6,.5,1)}.pill:hover{transform:scale(1.08) rotate(-2deg)}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;align-items:center;padding:5vh 5vw}
+h1{font-size:clamp(44px,8vw,96px);line-height:1;font-weight:700;margin-bottom:18px}h1 em{font-style:normal;color:var(--r)}
+.blobs{position:relative;height:340px}.blobs i{position:absolute;display:grid;place-items:center;font-size:80px;font-style:normal}
+.b1{width:230px;height:230px;background:var(--o);border-radius:62% 38% 55% 45%/50% 60% 40% 50%;left:5%;top:0;animation:f 6s ease-in-out infinite alternate}
+.b2{width:180px;height:180px;background:var(--r);border-radius:50%;right:8%;top:90px;animation:f 5s ease-in-out infinite alternate-reverse}
+.b3{width:150px;height:150px;background:var(--g);border-radius:40% 60% 50% 50%;left:30%;bottom:0;animation:f 7s ease-in-out infinite alternate}
+@keyframes f{to{transform:translateY(-18px) rotate(8deg)}}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:4vh 5vw 8vh}
+.t{background:#fff;border-radius:36px 36px 36px 8px;padding:26px}.t:nth-child(2){background:var(--o);border-radius:36px 8px 36px 36px}.t:nth-child(3){background:var(--g);color:#fff}
+.t h3{font-size:28px}@media(prefers-reduced-motion:reduce){.blobs i{animation:none}}
+</style></head><body>
+<nav><span>Mevazor</span><a class="pill" href="#m">Savat (0)</a></nav>
+<section class="hero"><div><h1>Bog‘dan <em>to‘g‘ri</em> stolingizga.</h1><p>Ertalab terilgan mevalar, tushgacha eshigingizda. Toshkent bo‘ylab bepul yetkazish.</p><a class="pill" href="#m">Buyurtma berish</a></div>
+<div class="blobs"><i class="b1">🍊</i><i class="b2">🍓</i><i class="b3">🥝</i></div></section>
+<section class="row" id="m"><div class="t"><h3>Mavsumiy</h3>Faqat hozir pishgan mevalar.</div><div class="t"><h3>Qutilar</h3>Oilaviy va ofis to‘plamlari.</div><div class="t"><h3>Obuna</h3>Har hafta yangi quti, istalgan payt to‘xtating.</div></section>
+</body></html>
